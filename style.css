@@ -1,0 +1,134 @@
+/*       styling for all the page */
+        html,body{
+            height: 100%;
+        }
+        body{
+            font-family:  'Open Sans', sans-serif;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+/*styles for navigation section*/
+        #top-nav{
+            height: 80px;
+            width:100%;
+            background-color:#333;
+ 
+        }
+        #top-nav-header{
+            position: relative;
+            vertical-align: middle;
+            color: white;
+            font-size: 26px;
+            margin-left: 10px;
+        }
+        div > h1 > span{
+            font-size: 2em;
+            position: relative;
+            top:12px;
+            right:5px;
+            color: #ffa500;
+        }
+
+        nav{
+            width:100%;
+            background-color: dimgray;
+            
+        }
+    
+        .nav-links{
+            display: inline-block;
+            margin: 12px 23px 12px 10px;
+            border-right: 1px solid black;
+            
+        }
+       nav li a{
+            color: lightgray;
+            padding-right: 12px
+        }
+        
+        hr {
+            border-color: #f2f2f2;
+        }
+
+/*styling for left side of page*/
+
+        p{
+            color: #808080;
+            line-height: 25px;
+        }
+        .main-body{
+            display:inline;
+        }
+        
+        .main-body-hr{
+            margin: 50px 0 50px 0;
+        }
+
+      
+        #left-section{
+            float: left;
+             width: 65%;
+            height: 100%;
+            margin-top: 50px;
+        }
+               
+        .image-left-column{
+            float: left;
+            width: 150px;
+            height: 150px;
+            background-color: #f2f2f2;
+            margin-right: 20px;
+        }
+
+/*styling for right side of page*/
+        .sidebar-hr{
+            width: 95%;
+        }
+        
+         #right-section{
+            float: right;
+            width: 30%;
+            height: 110%;
+            padding-left: 22px;
+            background-color: #f2f2f2;
+        }
+
+        .section-links{
+            color: #ffa500;
+        }
+        ul.sidebar-links{
+            list-style-type: none;
+        }
+        .sidebar-links li{
+            margin: 12px 0 0 -20px;
+        }
+        h3{
+            margin-left: 6px;
+        }
+
+ 
+        .right-section-article p{
+            margin-left: 6px;
+        }
+
+        #span-p{
+            padding-top: 30%;
+        }
+/*styling for footer section*/
+        
+        footer{
+            clear: both;
+            width: 100%;
+            height: 60px;
+            background-color: #291e0a;
+            
+        }
+        footer p{
+            position: relative;
+            top: 50%;
+            transform: perspective(1px) translateY(-50%);
+            text-align: center;
+        }
+    
