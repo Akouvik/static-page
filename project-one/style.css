@@ -1,7 +1,12 @@
 /*       styling for all the page */
+        *{
+          margin: 0;
+        }
+        body i {
+        font-family:'FontAwesome'!important;
+        }
         html,body{
             height: 100%;
-            /*background: rgba(0,0,0,0.05);*/
         }
         body{
             font-family:  'Raleway', 'Open Sans', sans-serif;
@@ -11,8 +16,10 @@
             text-decoration: none;
         }
         h1{
-          color: #435a6b;
+          font-size: 1.5rem;
+          padding-bottom: 12px;
         }
+
 /*styles for navigation section*/
         #top-nav{
             height: 80px;
@@ -22,10 +29,11 @@
         }
         #top-nav-header{
             position: relative;
-            vertical-align: middle;
+            top: 30px;
+            /* vertical-align: middle; */
             color: white;
-            font-size: 30px;
-            margin-left: 10px;
+            font-size: 2.5em;
+            margin-left: 20px;
         }
         #the-number-five{
             font-size: 2em;
@@ -119,7 +127,7 @@
           color: #ffa500;
 
         }
-        
+
         hr {
             border-color: #f2f2f2;
         }
@@ -135,12 +143,27 @@
             color: #808080;
             line-height: 25px;
         }
+
+        button{
+          color: white;
+          background: #ffa500;
+          font-weight: bolder;
+          border-radius: 6px;
+          font-size: 12px;
+          margin-top: 12px;
+        }
+        button:hover{
+          background-color: #e69500;
+        }
         .main-body{
             display:inline;
         }
 
         .main-body-hr{
-            margin: 50px 0 50px 0;
+            margin: 100px 0 40px 0;
+        }
+        .more{
+          margin-top: 100px;
         }
 
 
@@ -148,7 +171,7 @@
             float: left;
              width: 65%;
             height: 100%;
-            margin: 100px 0 100px 0;
+            margin: 100px 0 100px 20px;
         }
 
         .image-left-column{
