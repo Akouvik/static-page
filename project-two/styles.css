@@ -1,0 +1,205 @@
+    *{
+      margin: 0;
+    }
+    html,body{
+      height: 100%;
+      font-family: sans-serif;
+    }
+    /* navigation style */
+
+    .nav-items {
+      /* width: 100%; */
+      /* padding-left: 47px; */
+      list-style-type: none;
+      margin: 0;
+      /* padding: 10px; */
+      overflow: hidden;
+      background-color: #f2f2f2;
+      /* z-index: 1; */
+    }
+
+     .nav-links {
+        float: right;
+    }
+
+    .nav-links a {
+        display: block;
+        color: #666;
+        text-align: center;
+        padding: 30px 16px;
+        text-decoration: none;
+    }
+
+
+    #logo{
+      float: left;
+      color: #1a1a1a;
+      margin-left: 60px;
+      padding-top: 25px
+    }
+    .icon{
+      position: relative;
+      bottom: 30px;
+      left: 30px;
+      font-size: 25px;
+    }
+    .icon:hover{
+      color:red;
+      /* position: relative; */
+      top: 22px;
+    }
+    /* top div style */
+
+    .top-div{
+      width:100%;
+      min-height: 65%;
+      padding: 3% 0;
+      background-color: #d9d9d9;
+    }
+    #top-div-center-div{
+      /* width: 68%; */
+      margin: 0 auto;
+      border-radius: 5px;
+      height: 300px;
+      background-image: url(blur.jpg);
+      border: 5px solid white;
+    }
+    .this-div{
+      width: 70%;
+      margin: 0 auto;
+    }
+     #cards-container-div{
+      display: table;
+      margin: 0 auto;
+    }
+    .card{
+      width: 200px;
+      height: 150px;
+      margin: 50px 30px 0 0;
+      padding: 11px;
+      display: inline-block;
+      float: left;
+      border-radius: 5px;
+    }
+    h4{
+      color: white;
+    }
+    #card-one{
+      background-color: #fa6f38
+    }
+    #card-two{
+      background-color: #80c233;
+    }
+    #card-three{
+      background-color: #f0c632;
+    }
+    #card-four{
+      background-color: #26a0d5;
+    }
+
+    p{
+      font-style: italic;
+    }
+    .card-text{
+      color: black;
+      font-size: 12px;
+      padding: 4px;
+      /* border-radius: 25px; */
+    }
+    .card-icon{
+      float: right;
+      font-size: 30px;
+    }
+    hr{
+      border-color: gray;
+    }
+    /* bottom content */
+
+    .bottom-content-container-div{
+      margin: 0 auto;
+      width: 70%;
+    }
+    .top-bottom-section{
+      display: table;
+      margin: 0 auto;
+      padding: 40px 0;
+      border-bottom: 1px dashed gray;
+    }
+    .top-bottom-section p{
+      line-height: 2;
+    }
+
+    h3{
+      font-style: italic;
+      padding: 20px 0;
+    }
+    .welcome p{
+      word-wrap: break-word;
+      /* float: left; */
+      /* overflow: hidden; */
+
+    }
+    .contact-info{
+      font-weight: 500;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .contact-info span{
+      font-weight: normal;
+    }
+     .package-offers{
+      display: table;
+      margin: 0 auto;
+    }
+
+   .package{
+      width: 200px;
+      height: 150px;
+      margin: 50px 20px 0 0;
+      padding: 10px;
+      display: inline-block;
+      float: left;
+      border-radius: 5px;
+      }
+
+    #top-bottom-div-left{
+      width: 75%;
+      float: left;
+    }
+    #contact-us{
+      width: 25%;
+      float: right;
+    }
+    footer{
+      width: 100%;
+      height: 80px;
+      background-color: #d9d9d9;
+      margin-top: 90px;
+      border-top: 2px solid #999;
+
+    }
+
+  .footer-div{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .footer-links{
+    display: inline-block;
+  }
+  .footer-links a{
+    text-decoration: none;
+    color: #595959;
+    position: relative;
+    top: 35px;
+    padding-right: 5px
+  }
+  .footer-copyright{
+    float: right;
+    color: #595959;
+    position: relative;
+    top: 35px;
+  }
+  span{
+    padding-left: 8px;
+  }

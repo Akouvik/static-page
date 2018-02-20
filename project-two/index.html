@@ -5,193 +5,19 @@
   <meta charset="utf-8">
   <title>Bizz.Target</title>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <style media="screen">
-    *{
-      margin: 0;
-    }
-    html,body{
-      height: 100%;
-      font-family: sans-serif;
-    }
-    /* navigation style */
-    ul {
-      width: 100%;
-      padding-left: 47px;
-      list-style-type: none;
-      margin: 0;
-      /* padding: 10px; */
-      overflow: hidden;
-      background-color: #f2f2f2;
-      /* z-index: 1; */
-    }
-
-    li {
-        float: right;
-    }
-
-    li a {
-        display: block;
-        color: #666;
-        text-align: center;
-        padding: 30px 16px;
-        text-decoration: none;
-    }
-
-    li a:hover {
-        background-color: #e6e6e6;
-    }
-    #logo{
-      float: left;
-      color: #1a1a1a;
-    }
-    .icon{
-      position: relative;
-      bottom: 22px;
-      left: 30px;
-      font-size: 25px;
-    }
-    .icon:hover{
-      color:red;
-      /* position: relative; */
-      top: 22px;
-    }
-/* top div style */
-
-    .top-div{
-      width:100%;
-      min-height: 65%;
-      padding: 2%;
-      background-color: #d9d9d9;
-    }
-    #top-div-center-div{
-      /* width: 68%; */
-      margin: 0 auto;
-      border-radius: 5px;
-      height: 300px;
-      background-image: url(blur.jpg);
-      border: 5px solid white;
-    }
-    .this-div{
-      width: 80%;
-      margin: 0 auto;
-    }
-     #cards-container-div{
-      display: table;
-      margin: 0 auto;
-    }
-    .card{
-      width: 200px;
-      height: 150px;
-      margin: 50px 20px 0 0;
-      padding: 11px;
-      display: inline-block;
-      float: left;
-      border-radius: 5px;
-    }
-    h4{
-      color: white;
-    }
-    #card-one{
-      background-color: #fa6f38
-    }
-    #card-two{
-      background-color: #80c233;
-    }
-    #card-three{
-      background-color: #f0c632;
-    }
-    #card-four{
-      background-color: #26a0d5;
-    }
-
-    p{
-      font-style: italic;
-    }
-    .card-text{
-      color: black;
-      font-size: 12px;
-      padding: 4px;
-      /* border-radius: 25px; */
-    }
-    .card-icon{
-      float: right;
-      font-size: 30px;
-    }
-    hr{
-      border-color: gray;
-    }
-/* bottom content */
-
-    .bottom-content-container-div{
-      margin: 0 auto;
-    }
-    .top-bottom-section{
-      display: table;
-      margin: 0 auto;
-      border-bottom: 1px dashed gray;
-    }
-
-    h3{
-      font-style: italic;
-    }
-    .welcome p{
-      word-wrap: break-word;
-      /* float: left; */
-      /* overflow: hidden; */
-
-    }
-    .contact-info{
-      font-weight: bolder;
-    }
-    .contact-info span{
-      font-weight: lighter;
-    }
-     .package-offers{
-      display: table;
-      margin: 0 auto;
-    }
-
-     .package{
-    width: 200px;
-    height: 150px;
-    margin: 50px 20px 0 0;
-    padding: 10px;
-    display: inline-block;
-    float: left;
-    border-radius: 5px;
-    }
-
-    #top-bottom-div-left{
-      width: 60%;
-      float: left;
-    }
-    #contact-us{
-      width: 20%;
-      float: right;
-      /* float: left; */
-    }
-
-    .top-bottom-div{
-    /* width: 200px; */
-    /* height: 150px; */
-    /* margin: 50px 20px 0 0; */
-    /* padding: 10px; */
-    /* display: inline-block;
-    float: left;
-    border-radius: 5px; */
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="top-nav">
     <ul class="nav-items">
-      <h1 id="logo">BIZZ.TARGET</h1>
-      <li><a href="#"><i class="fas fa-mobile icon"></i>Contact</a></li>
-      <li><a href="#"><i class="fab fa-servicestack icon"></i>Services</a></li>
-      <li><a href="#"><i class="fas fa-cog icon"></i>Careers</a></li>
-      <li><a href="#"><i class="fas fa-star icon"></i>Marketing</a></li>
-      <li><a href="#"><i class="fas fa-home icon"></i>Main</a></li>
+        <h1 id="logo">BIZZ.TARGET</h1>
+        <li class="nav-links"><a href="#"><i class="fas fa-mobile icon"></i>Contact</a></li>
+        <li class="nav-links"><a href="#"><i class="fab fa-servicestack icon"></i>Services</a></li>
+        <li class="nav-links"><a href="#"><i class="fas fa-cog icon"></i>Careers</a></li>
+        <li class="nav-links"><a href="#"><i class="fas fa-star icon"></i>Marketing</a></li>
+        <li class="nav-links"><a href="#"><i class="fas fa-home icon"></i>Main</a></li>
+
     </ul>
 
   </div>
@@ -256,10 +82,10 @@
 
           <div class="top-bottom-div" id="contact-us">
             <h3>Contact Us</h3>
-              <p class="contact-info">Address:<span>123 hoodvile</span></p>
-              <p class="contact-info">Telephone:<span>000-111-3332</span></p>
-              <p class="contact-info">Other:<span>social meeds contact</span></p>
-              <p class="contact-info">Email:<span>example@email.com</span></p>
+              <p class="contact-info">Address: <span>123 hoodvile</span></p>
+              <p class="contact-info">Telephone:  <span>000-111-3332</span></p>
+              <p class="contact-info">Other: <span>social meeds contact</span></p>
+              <p class="contact-info">Email: <span>example@email.com</span></p>
           </div>
       </div>
 
@@ -286,7 +112,19 @@
     </div>
 
   </div>
-  <!-- <footer></footer> -->
+  <footer>
+    <div class="footer-div">
+      <li class="footer-links"><a href="#" class="noDecoration">Contact <span> - </span></a></li>
+      <li class="footer-links"><a href="#" class="noDecoration">Services <span> - </span></a></li>
+      <li class="footer-links"><a href="#">Careers <span> - </span></a></li>
+      <li class="footer-links"><a href="#">Marketing <span> - </span></a></li>
+      <li class="footer-links"><a href="#">Main</a></li>
+      <div class="footer-copyright">
+        <p>CopyRight@AkouviKouedjinDesigns.com</p>
+      </div>
+    </div>
+
+  </footer>
   <script></script>
 </body>
 </html>
