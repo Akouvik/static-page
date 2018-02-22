@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>AK About</title>
+  <title> Akouvi Kouedjin | About</title>
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
 <style media="screen">
@@ -60,10 +60,12 @@
     font-weight: 100;
     text-transform: uppercase;
     margin: 0;
-    padding-top: 130px;
+    padding-top: 120px;
     width: 195px;
     list-style: none;
     text-align: left;
+    position: relative;
+    right: 25px
   }
   ul.mainNav li a{
     width: 190px;
@@ -75,17 +77,57 @@
     letter-spacing: 3px;
   }
   i{
-    font-size: 150px;
+    font-size: 180px;
     color: #ffa500;
     margin-top: 20px;
   }
-
+  .hello{
+    float: left;
+    /* position: relative; */
+    /* bottom: 250px; */
+    /* clear: both; */
+    margin-bottom: 100px
+  }
+  .hello img{
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+    margin: 30px 0;
+    border: 5px solid white;
+  }
+  .hello p{
+    font-size: 2em;
+  }
+  .front-end{
+    /* margin-top: 300px; */
+    clear: left;
+    width: 835px;
+    border-top: 1px solid #D8E4E6;
+    border-bottom: 1px solid #D8E4E6;
+  }
+  .front-end p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .front-end ul li{
+    list-style:none;
+    display: inline-block;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 0 40px;
+  }
 </style>
 
 <body>
   <div class="fullPage">
     <div class="notice-banner">
       <p>I am currently living in <span><a href="https://www.google.com/maps/place/New+Jersey/@40.2196856,-76.863702,7.27z/data=!4m5!3m4!1s0x89c0fb959e00409f:0x2cd27b07f83f6d8d!8m2!3d40.0583238!4d-74.4056612" target="_blank">New Jersey</a></span> and willing to move for the right job. Feel free to <span><a href="contact.html"> contact</a></span> me</p>
+    </div>
+    <div class="hello">
+      <img src="images/akouvi.jpg" alt="">
+      <!-- <p>Hi Im Akouvi</p> -->
     </div>
     <div id="sidebar">
       <i class="fas fa-arrow-circle-down"></i>
@@ -96,13 +138,35 @@
         <li class=""><a href="kouvi04.html">Contact</a></li>
       </ul>
   </div>
-  <div class="aboutMe">
-    <h3>About me</h3>
-    <p>I'm a self taught front end Web Developer from Phoenix Arizona.</p>
-    <p>I started coding as a hobby three years ago. ive built stuff here and there but never thought about creating a comprehensive portfolio untill now. I enjoy building fun interactive layouts that creates a smooth user experience. Im always working on a project, sometimes multiple projects but in my free time, i like photography. Here are some of my photos</p>
 
+  <div class="front-end">
+    <p>Building Responsive Interactive web designs</p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>JQuery</li>
+    </ul>
   </div>
-
+  <div class="aboutMe">
+    <p>I'm a self taught front end Web Developer from Phoenix Arizona.</p>
+    <p>I started coding as a hobby three years ago. ive built stuff here and there but never thought about creating a comprehensive portfolio untill now. I enjoy building fun interactive layouts that creates a smooth user experience. Im always working on a project, sometimes multiple projects but in my free time, i like photography. Here are some of my photo</p>
+  </div>
+  <!-- Images used to open the lightbox -->
+  <!-- <div class="row">
+    <div class="column">
+      <img src="img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+  </div> -->
   </div>
 
 
