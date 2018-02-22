@@ -51,7 +51,8 @@
     width: 200px;
     margin: 0;
     padding: 0;
-    border-left: 1px solid #E0E0E2;
+    border-left: 1px solid #D8E4E6;
+    padding-bottom: 226px
   }
   .mainNav{
     clear: both;
@@ -65,16 +66,22 @@
     list-style: none;
     text-align: left;
     position: relative;
-    right: 25px
+    right: 20px;
   }
   ul.mainNav li a{
     width: 190px;
     display: block;
     margin-bottom: 30px;
-    padding-left: 5px;
+    padding: 8px;
     text-decoration: none;
     color: #77787B;
     letter-spacing: 3px;
+    background-color: #ffa500;
+    text-align: center;
+  }
+  ul.mainNav li a:hover{
+    border-left: 5px solid #f66;
+    background-color: #D8E4E6;
   }
   i{
     font-size: 180px;
@@ -118,6 +125,28 @@
     text-transform: uppercase;
     padding: 0 40px;
   }
+  .front-end ul li:hover{
+    color: #f66;
+  }
+  .aboutMe{
+    width: 430px;
+    margin: 30px 0 0 190px;
+    /* margin: 0 auto; */
+    border-left: 1px solid #D8E4E6;
+    /* padding: 12px 0; */
+    padding: 12px 0 50px 0;
+  }
+  .aboutMe p{
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: lighter;
+    text-align: justify;
+    line-height: 18px
+  }
+  footer{
+    border-top: 1px solid #D8E4E6;
+    margin-top: 30px
+  }
 </style>
 
 <body>
@@ -130,6 +159,7 @@
       <!-- <p>Hi Im Akouvi</p> -->
     </div>
     <div id="sidebar">
+      <!-- <i class="fas fa-arrow-down"></i> -->
       <i class="fas fa-arrow-circle-down"></i>
       <ul class="mainNav">
         <li class=""><a href="index.html"> Home</a></li>
@@ -149,24 +179,16 @@
     </ul>
   </div>
   <div class="aboutMe">
+    <h3>About Me</h3>
     <p>I'm a self taught front end Web Developer from Phoenix Arizona.</p>
-    <p>I started coding as a hobby three years ago. ive built stuff here and there but never thought about creating a comprehensive portfolio untill now. I enjoy building fun interactive layouts that creates a smooth user experience. Im always working on a project, sometimes multiple projects but in my free time, i like photography. Here are some of my photo</p>
+    <p>I started coding as a hobby three years ago. ive built stuff here and there but never thought about creating a comprehensive portfolio untill now.</p> <br>
+    <p>I enjoy building fun interactive layouts that creates a smooth user experience. Im always working on a project, sometimes multiple projects but in my free time, I like photography.</p>
   </div>
-  <!-- Images used to open the lightbox -->
-  <!-- <div class="row">
-    <div class="column">
-      <img src="img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-    </div>
-    <div class="column">
-      <img src="img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-    </div>
-    <div class="column">
-      <img src="img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-    </div>
-    <div class="column">
-      <img src="img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-    </div>
-  </div> -->
+
+
+  <footer>
+    <p>copyright © 2018 Akouvi Kouedjin</p>
+  </footer>
   </div>
 
 
