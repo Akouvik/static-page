@@ -3,131 +3,119 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>KOUVI1.0</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.1/core.js"></script>
-
-  <style media="screen">
-    html,body{
-      height: 100%;
-      color: white;
-    }
-    .top-content{
-      width:100%;
-      min-height: 70%;
-      padding: 2%;
-      background-color: #06cdcd;
-      /*background-image: url("img/melbCentral.jpg");*/
-      /*background-size: 100%;*/
-      /*opacity: .8;*/
-
-    }
-    .bottom-content{
-      width:100%;
-      min-height: 30%;
-      padding: 2%;
-      background-color: #c5a7b7;
-      /*opacity: .4;*/
-    }
-    h1{
-      text-align: center;
-      position: relative;
-      top:70px;
-      font-size: 200px;
-      /*padding: 0;*/
-      /*margin: 0*/
-    }
-    span{
-      position: relative;
-      left: 650px;
-      margin: 0;
-      padding: 0;
-      top:-80px;
-      font-size: 30px
-    }
-
-
-
-    a{
-      text-decoration: none;
-      color: white;
-    }
-
-
-    .top-nav-links{
-      border-bottom: solid 1px #FC5185;
-      transition: border-width 0.2s linear;
-      transition: font-size 0.1s linear;
-    }
-
-    .top-nav-links:hover {
-       border-width: 10px;
-       font-weight: lighter;
-       font-size: 30px;
-     }
-
-    .top-nav-links{
-      font-size: 20px;
-      font-weight: bolder;
-    }
-    #top-nav-left-link{
-      float: left;
-    }
-    #top-nav-right-link{
-      float: right;
-      margin-right: 50px;
-    }
-    .bottom-content p{
-      font-size: 12px;
-      text-align: center;
-      /*vertical-align: bottom;*/
-    }
-    #social-links{
-      align-items: center;
-      margin: 2.2em 0;
-      display: flex;
-      flex-direction: column;
-    }
-    #social-links a{
-      font-size: 20px;
-      padding-bottom: 8px;
-      letter-spacing: 3px;
-    }
-
-
-
-
-
-
-    #social-links a:hover{
-      color: #FC5185;
-      font-weight: 900;
-      background-color: #f6bcdb;
-      /*letter-spacing: 2px;*/
-      /*border-bottom: solid 1px #FC5185*/
-    }
-  </style>
+  <title>AK About</title>
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
+<style media="screen">
+  html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+  body{
+    font: 11px Helvetica, Arial, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #77787B;
+    background: #F1F3F6;
+    padding-top: 25px;
+  }
+  .fullPage{
+    width: 1035px;
+    /* background-color: red; */
+    padding: 0;
+    margin: 0 auto;
+  }
+  .notice-banner{
+    text-align: center;
+    background: black;
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  .notice-banner span a{
+    text-transform: uppercase;
+    color: #F66;
+    text-decoration: none;
+  }
+  #sidebar{
+    float: right;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #E0E0E2;
+  }
+  .mainNav{
+    clear: both;
+    float: left;
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 130px;
+    width: 195px;
+    list-style: none;
+    text-align: left;
+  }
+  ul.mainNav li a{
+    width: 190px;
+    display: block;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: #77787B;
+    letter-spacing: 3px;
+  }
+  i{
+    font-size: 150px;
+    color: #ffa500;
+    margin-top: 20px;
+  }
+
+</style>
 
 <body>
-  <div class="top-content">
-    <h1>AKOUVI</h1>
-     <span>KOUEDJIN</span>
-     <!-- <p id="last-name">I got this last name from an unmentionable whom we shall not mention. Hence why it is smaller than my awesome first name.</p> -->
-    <nav>
-      <a class="top-nav-links" id="top-nav-left-link" href="exerciseOne.html">About</a>
-      <a class="top-nav-links" id="top-nav-right-link" href="mailto:kouedjinl@gmail.com">Contact</a>
-    </nav>
-  </div>
-
-  <div class="bottom-content">
-    <div id="social-links">
-      <a href="https://github.com/Akouvik" target="_blank">Github</a>
-      <a href="https://www.facebook.com/linder.kouedjin.7" target="_blank">Facebook</a>
-      <a href="#">Instagram</a>
+  <div class="fullPage">
+    <div class="notice-banner">
+      <p>I am currently living in <span><a href="https://www.google.com/maps/place/New+Jersey/@40.2196856,-76.863702,7.27z/data=!4m5!3m4!1s0x89c0fb959e00409f:0x2cd27b07f83f6d8d!8m2!3d40.0583238!4d-74.4056612" target="_blank">New Jersey</a></span> and willing to move for the right job. Feel free to <span><a href="contact.html"> contact</a></span> me</p>
     </div>
-    <p>© 2018 Akouvi Kouedjin Design LLC. All rights reserved.</p>
+    <div id="sidebar">
+      <i class="fas fa-arrow-circle-down"></i>
+      <ul class="mainNav">
+        <li class=""><a href="index.html"> Home</a></li>
+        <li class=""><a href="about.html">About</a></li>
+        <li class=""><a href="kouvi02.html">Resume</a></li>
+        <li class=""><a href="kouvi04.html">Contact</a></li>
+      </ul>
+  </div>
+  <div class="aboutMe">
+    <h3>About me</h3>
+    <p>I'm a self taught front end Web Developer from Phoenix Arizona.</p>
+    <p>I started coding as a hobby three years ago. ive built stuff here and there but never thought about creating a comprehensive portfolio untill now. I enjoy building fun interactive layouts that creates a smooth user experience. Im always working on a project, sometimes multiple projects but in my free time, i like photography. Here are some of my photos</p>
+
   </div>
 
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <p>© 2018 Akouvi Kouedjin Design LLC. All rights reserved.</p> -->
   <script></script>
 </body>
 </html>
