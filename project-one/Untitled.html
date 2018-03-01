@@ -4,7 +4,12 @@
     <head>
       <meta charset="utf-8">
       <title>Akouvi Kouedjin</title>
+      <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+
       <style media="screen">
+        *{
+          margin: 0
+        }
         body{
           /* background-color: #f7cf70; */
           font: 11px Helvetica, Arial, Geneva, sans-serif;
@@ -38,7 +43,7 @@
         .main-content{
           height: 100%;
           width: 80%;
-          margin: 10px auto 145px auto;
+          margin: 50px auto 145px auto;
           /* background-color: #f2f2f2; */
         }
 /*
@@ -50,23 +55,25 @@
           position: relative;
           bottom: 68px;
         } */
-        .big-nav img{
-          display:block;
+        #center-pic{
           display: block;
-          /* max-width: 100%; */
+          margin: auto;
           position: relative;
           /* max-height: 100%; */
           bottom: 66px;
           width: 100%;
           height: 465px;
         }
-        /* .big-nav {
-          position:relative;
-          border:1px solid silver; display: inline-block;
-      } */
+        .big-nav {
+          margin-top: 52px;
+          /* position:relative; */
+          /* border:1px solid silver; display: inline-block; */
+      }
 
         .main-name{
               margin-left: 8px;
+              position: relative;
+              bottom: 12px;
         }
         #portfolio{
           border-left:  1px solid #eeb311;
@@ -80,31 +87,40 @@
         }
         .main-name #description{
           position: relative;
-          bottom: 47px;
+          bottom: 10px;
           color: #767676;
+          letter-spacing: 1.5px;
         }
         .main-nav{
-          float: right;
-          position: relative;
-          bottom: 100px;
-          bottom: 86px;
-          right: 29px;
+          font-size: 14px;
+          font-weight: 100;
+          text-transform: uppercase;
         }
         .main-nav li{
-          position: relative;
+          /* position: relative;
           left: 24px;
           font-weight: lighter;
           text-transform: uppercase;
-          display: inline-block;
+          display: inline-block; */
+          float: right;
+          position: relative;
+          left: 9px;
           list-style-type: none;
         }
         .main-nav a{
-          padding: 8px 15px;
+          width: 160px;
+          display: block;
+          float: right;
+          margin-bottom: 15px;
+          margin-right: 9px;
+          padding: 7px 8px;
+          position: relative;
+          bottom: 42px;
+          text-decoration: none;
           color: #77787B;
           letter-spacing: 3px;
+          background-color: #f1c038;
           text-align: center;
-          color: #909090;
-          text-decoration: none;
         }
 
         .main-nav a {
@@ -144,14 +160,17 @@
           }
           .cards-div{
             margin-top: -50px;
+            position: relative;
+            left: 50px;
           }
           .card{
             display: inline-block;
             background-color: #f1c038;
-            width: 210px;
+            word-wrap: break-word;
+            width: 220px;
             height: 250px;
-            padding: 10px;
-            margin-left: 5px;
+            padding: 9px;
+            margin-left: 12px;
             border-radius: 5px
           }
           .first-card{
@@ -170,13 +189,15 @@
           .recentWork{
             display: inline-block;
             height: 180px;
-            width: 190px;
+            padding: 15px;
+            width: 240px;
+            border: 2px solid wheat;
             background-color: gray;
             margin-top: 60px;
-            border-radius: 5px
+            border-radius: 5px;
           }
           .recentWork-left-margin{
-            margin-left: 13px
+            margin-left: 15px
           }
           .middle-cards{
             margin-right: 12px
@@ -195,17 +216,17 @@
           <div class="main-name">
             <p id="akouvi">Akouvi</p>
             <p id="description">An amazing web dev</p>
-            <div class="main-nav">
+            <ul class="main-nav">
                 <li class=""><a href="index.html">Portfolio</a></li>
                 <li class=""><a href="about.html">About</a></li>
                 <li class=""><a href="contact.html">Contact</a></li>
-            </div>
+            </ul>
           </div>
             <div class="big-nav">
 
-              <img src="images/southbank.png" alt="">
+              <img src="images/southbank.png"  id="center-pic" alt="">
               <div class="hi"></div>
-              <div class="hi-two"></div>
+              <div class="hi-two"><i class="fas fa-angle-right"></i></div>
 
             <div class="cards-div">
                   <div class="card first-card">
@@ -230,7 +251,7 @@
                   </div>
                 </div>
               <div class="card">
-              <!-- <img src="images/melCentral.png" alt="Avatar" style="width:100%"> -->
+              <!-- <img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png"  style="width: 10rem" alt="Avatar"> -->
               <div class="container last-card">
                 <h4><b>John Doe</b></h4>
                 <p>Architect & Engineer</p>
