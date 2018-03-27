@@ -3,6 +3,8 @@
 }
 body{
   /* background-color: #f7cf70; */
+  margin: 0 auto;
+  width: 80%;
   font: 11px Helvetica, Arial, Geneva, sans-serif;
 }
 
@@ -23,16 +25,14 @@ body{
 
 }
 .nav li a{
-  /* text-decoration: none;
-  color: white */
-  /* text-decoration: none; */
-  /* color: white */
-  /* font-size: 16px; */
+  text-decoration: none;
+  color: white
+  font-size: 16px;
 /* padding: 0 23px; */
 letter-spacing: 3px;
 text-transform: uppercase;
 font-weight: 100;
-/* width: 156px; */
+width: 156px;
 display: block;
 /* margin-bottom: 30px; */
 /* padding: 8px; */
@@ -52,7 +52,7 @@ color: #77787B;
   width: 99%;
   height: 200px;
   /* background-color: #f66; */
-  margin: -51px auto 145px auto;
+  margin: 110px auto 145px auto;
   position: relative;
   bottom: 68px;
 }
@@ -65,9 +65,9 @@ color: #77787B;
   width: 100%;
   height: 465px;
 }
-.big-nav {
-  margin-top: 112px;
-}
+/* .big-nav {
+  margin-top: 52px;
+} */
 
 .main-name{
       margin-left: 8px;
@@ -218,10 +218,10 @@ color: #77787B;
           margin: 50px 33px;
           /* background-color: #f2f2f2; */
         }
-    /* .nav li a {
+    .nav li a {
         text-decoration: none;
-        color: white;
-      } */
+        /* color: white; */
+      }
       .nav {
         width: 121%;
         text-align: center;
@@ -324,10 +324,10 @@ color: #77787B;
         /* background-color: #f2f2f2; */
     }
 
-    /* .nav li a {
+    .nav li a {
         text-decoration: none;
-        color: white;
-      } */
+        /* color: white; */
+      }
       .nav {
         width: 106%;
         text-align: center;
@@ -397,7 +397,7 @@ color: #77787B;
       margin-left: 0px;
       }
       .big-nav {
-        margin-top: 52px;
+        margin-top: 112px;
         margin-left: 6px;
     }
 
@@ -452,7 +452,7 @@ color: #77787B;
           display: none;
         }
         .big-nav {
-            margin-top: 52px;
+            margin-top: 112px;
             margin-left: 20px;
             /* position: relative; */
         }
@@ -562,8 +562,8 @@ color: #77787B;
           display: none;
         }
         .big-nav {
-            margin-top: 112px;
-            margin-left: 25px;
+            /* margin-top: 52px; */
+            /* margin-left: 25px; */
             /* position: relative; */
         }
         #center-pic {
@@ -647,7 +647,7 @@ color: #77787B;
       letter-spacing: 1px;
   }
   .card {
-      width: 683px;
+      width: 700px;
       padding: 27px;
       margin-top: 12px;
   }
@@ -703,8 +703,22 @@ color: #77787B;
     }
   }
   @media screen and (min-width: 1024px){
-  .card {
-    width: 939px;
+  /* .card {
+    width: 220px;
+    border-radius: 5px;
+    height: 250px;
+    padding: 9px;
+    margin-left: 12px;
+    display: inline-block */
+        /* width: 939px; */
+  }
+  /* .last-card{
+    display: inline-block;
+    width: 220px;
+    border-radius: 5px;
+    height: 250px;
+    padding: 9px;
+    margin-left: 12px;
   }
   .cards-div h4{
     font-size: 40px;
@@ -723,5 +737,5 @@ color: #77787B;
   }
   .main-name #akouvi {
     font-size: 71px;
-  }
+  } */
 }

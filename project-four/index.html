@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NetBank - Logout</title>
+     <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    </head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<!--    <link rel="shortcut icon" type="image/png" href="http://eg.com/favicon.png"/>-->
+    
+    <style>
+        html, body {
+            min-height: 100%;
+            height: auto;    
+        }
+        
+        body{
+            background: linear-gradient(to bottom, #e6e6e6 2%, #fff 30%);
+/*            color: #292526;*/
+        }
+        #main{
+            background-color: #fff;
+            width: 60%;
+            margin: 0 auto;
+        }
+        
+        h3{
+            padding: 10px;
+            font-weight: 300;
+            margin: 15px 30px;
+        }
+        #logoSpan{
+            font-weight: 900;
+            letter-spacing: -1.5px;
+        }
+    
+        #headmoto{
+            font-weight: bold;
+            margin: 15px 30px;
+            padding-top: 15px;
+            line-height: 19px;
+        }
+     
+     
+        #logo{
+            position: relative;
+            bottom: 4px;
+            left: -3px;
+        }
+        
+/*
+           #firstHr{
+            background-color: #ffe100;
+            margin: 15px 30px;
+        }
+*/
+        
+        
+        .sexy_line{ 
+            margin: 15px 30px;
+            display:block;
+            border:none;
+            color:#ffe100;
+            height:1px;
+            background:black;
+            background: -webkit-gradient(radial, 10% 10%, 0, 10% 30%, 500, from(#ffe100), to(#fff));
+            }
+        a{
+            font-size: 14px;
+            text-decoration: underline;
+            color: black;
+        }
+        
+/*
+        a:hover{
+            text-decoration: none;
+            font-size: 15px;
+            color: black;
+        }
+*/
+        a img{
+            width: 16px;
+            height: 16px;
+        }
+        
+        #firstGroupLinks{
+            margin: 12px 30px 80px 30px;
+/*            padding: 0*/
+            
+        }
+        
+
+        #firstGroupLinksB{
+            position: relative;
+            bottom: 46px;
+            right: 100px;
+            float: right;
+            overflow: hidden;
+/*            font-size: 12px;*/
+        }
+        
+        #getStarted{
+            background-color: #f1f1f1;
+            width: 90%;
+            margin: 0 auto;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        #getStartedImg{
+            float: left;
+            overflow: auto;
+            padding: 4px;
+        }
+        
+        
+        #getStartedHeader{
+            font-weight: bold;
+        }
+       
+        #getStartedText{
+            margin-right: 50px;
+            position: relative;
+            left: 12px;
+        }
+        
+        hr{
+            margin: 15px 30px;
+        }
+        
+        .footer{
+            margin: 15px 30px;
+        }
+        
+        #abnNumber{
+            float: right;
+            position: relative;
+            right:20px;
+            top: 4px;
+            font-size: 13px;
+            color: #737373;
+        }
+        
+        .linkBorder{
+            border-right: 1.5px solid #b3b3b3;
+            padding:0 5px;
+/*            font-size: 12px;*/
+
+        }
+       
+
+    </style>
+    
+    <body>
+        <form class="container">
+            <div class="row">
+                <div id="main">
+                    <div id="head">
+                        <h3><span id="logoSpan">Commonwealth</span>Bank <img src="img/bank.png" width="65px" height="55px" id="logo"></h3>
+                    </div>
+                    
+                    <p id="headmoto">
+                        Thank you for using NetBank (Australia's #1 online bank).<br>
+                        You are now logged off.
+                    </p>
+<!--                    <hr id="firstHr">-->
+                    <div>
+                        <span class="sexy_line"></span>
+                    </div>
+                    
+                    <div id="firstGroupLinks">
+                      <div id="firstGroupLinksA">
+                            <a href="#"><img src="img/linkImg.png" class="linkImg">Visit commbank.com.au</a><br>
+                            <a href="#"><img src="img/linkImg.png" class="linkImg">Log on to NetBank again</a>
+                      </div>
+
+                      <div id="firstGroupLinksB">
+                            <a href="#"><img src="img/linkImg.png" class="linkImg">Your NetBank questions answered.</a><br>
+                            <a href="#"><img src="img/linkImg.png" class="linkImg">NetBank Social: Follow us online</a><br>
+                            <a href="#"><img src="img/linkImg.png" class="linkImg">Discover the CommBank app</a>
+
+                      </div>
+                    </div>
+                  
+                    
+                    <div id="getStarted">
+                        <img src="img/getStartedImg.png" width="25%" height="100px" id="getStartedImg">
+                        <div id="getStartedText">
+                            <p>
+                                <span id="getStartedHeader">Looking at properties?</span><br>
+                                Understand what you could borrow so you can have the confidence to act quickly.
+                            </p>
+<!--                            <p>Understand what you could borrow so you can have the confidence to act quickly.</p>-->
+                            <a href="#" id="getStartedLink"><img src="img/linkImgGray.png" class="linkImg">Get started</a>
+                        
+                        </div>
+                        
+                    </div>
+                    <hr>
+                    <div class="footer">
+                        <a href="#" class="linkBorder">Terms of use</a>
+                        <a href="#" class="linkBorder">Security</a>
+                        <a href="#">Privacy</a>
+                        <p id="abnNumber">© Commonwealth Bank of Australia 2017 ABN 48 123 123 124</p>
+                    </div>
+                   
+                </div>
+            </div>
+        
+        </form>
+    
+    </body>
+</html
