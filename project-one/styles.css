@@ -19,7 +19,8 @@ body{
   display: inline-block;
   border-right: 1px solid #eeb311;
   position: relative;
-  left: 150px
+  left: 150px;
+  width: 21%;
 
 }
 .nav li a{
@@ -44,7 +45,7 @@ color: #77787B;
 .main-content{
   height: 100%;
   width: 80%;
-  margin: 50px auto 145px auto;
+  /* margin: 50px auto 145px auto; */
   /* background-color: #f2f2f2; */
 }
 
@@ -75,7 +76,7 @@ color: #77787B;
       bottom: 12px;
 }
 #portfolio{
-  border-left:  1px solid #eeb311;
+  /* border-left:  1px solid #eeb311; */
 }
 
 .main-name #akouvi{
@@ -166,8 +167,8 @@ color: #77787B;
     display: inline-block;
     background-color: #f1c038;
     word-wrap: break-word;
-    width: 220px;
-    height: 250px;
+    width: 23%;
+    height: 100%;;
     padding: 9px;
     margin-left: 12px;
     border-radius: 5px
@@ -189,7 +190,7 @@ color: #77787B;
     display: inline-block;
     height: 180px;
     padding: 15px;
-    width: 240px;
+    width: 40%;
     border: 2px solid wheat;
     background-color: gray;
     margin-top: 60px;
@@ -215,7 +216,7 @@ color: #77787B;
     .main-content {
           height: 100%;
           width: 80%;
-          margin: 50px 33px;
+          /* margin: 50px 33px; */
           /* background-color: #f2f2f2; */
         }
     /* .nav li a {
@@ -236,6 +237,7 @@ color: #77787B;
         border-right: 1px solid #eeb311;
         position: relative;
         left: 109px;
+        width: 21%;
       }
       .top-links {
         color: red;
@@ -257,7 +259,7 @@ color: #77787B;
             margin: auto;
             position: relative;
             bottom: 85px;
-            width: 125%;
+            width: 118%;
             height: 250px;
             border-radius: 5px solid #f7cf70;
         }
@@ -270,31 +272,34 @@ color: #77787B;
         .cards-div {
         margin-top: -59px;
         position: relative;
-        left: 72px;
+        /* left: 72px; */
         color: white;
       }
 
       .card {
-        width: 70px;
-        height: 79px;
+        width: 23%;
+        height: 100%;
         padding: 3px;
-        margin-right: -8px;
+        margin-right: 0px;
+    }
+    .card img{
+      height: 70%;
     }
 
-  .middle-cards {
-        margin-right: 0px;
-  }
+    .middle-cards {
+      margin-right: 0px;
+    }
   .recent-works {
       width: 125%;
   }
   .exampleWork {
-      width: 130%;
+      width: 118%;
       margin-top: 0px;
   }
   .recentWork {
       height: 130px;
       padding: 10px;
-      width: 135px;
+      width: 40%;
       border: 1px solid wheat;
       margin-top: 18px;
       margin-right: 4px;
@@ -306,13 +311,20 @@ color: #77787B;
   }
   @media only screen and (min-width: 360px){
     .card {
-        width: 79px;
-        height: 82px;
-        padding: 3px;
-        margin-right: -8px;
+        display: inline-block;
+        /* background-color: #f1c038; */
+        word-wrap: break-word;
+        width: 23%;
+        height: 100%;
+        padding: 0px;
+        margin-left: 1px;
+        border-radius: 5px;
+    }
+    .card img{
+      height: 70%;
     }
     .recentWork{
-      width: 156px;
+      width: 40%;
     }
 }
 
@@ -320,7 +332,7 @@ color: #77787B;
     .main-content {
         height: 100%;
         width: 80%;
-        margin: 50px 6px;
+        margin: 50px 0px;
         /* background-color: #f2f2f2; */
     }
 
@@ -329,7 +341,7 @@ color: #77787B;
         color: white;
       } */
       .nav {
-        width: 106%;
+        width: 100%;
         text-align: center;
         margin: 0 auto;
         height: 30px;
@@ -342,69 +354,81 @@ color: #77787B;
         border-right: 1px solid #eeb311;
         position: relative;
         left: 109px;
+        width: 21%;
       }
-      .top-links {
-        color: red;
+    .top-links {
+      color: red;
+      position: relative;
+      left: -106px;
+      top: 4px;
+      }
+      .main-name {
+        width: 12px;
+        margin-left: 8px;
         position: relative;
-        left: -106px;
-        top: 4px;
-        }
-        .main-name {
-          margin-left: 8px;
-          position: relative;
-          bottom: 35px;
-          text-align: center;
-        }
-        .main-nav-links{
-          display: none;
-        }
-
-      .hi {
-          display: none;
-          }
-        .hi-two {
-            display:  none;
-            }
-        .cards-div {
-        margin-top: -59px;
-        position: relative;
-        left: 72px;
-        color: white;
+        left: 15px;
+        bottom: 39px;
+        text-align: center;
+      }
+      .main-nav-links{
+        display: none;
       }
 
-      .card {
-        width: 82px;
-        height: 79px;
+    .hi {
+        display: none;
+        }
+  .hi-two {
+      display:  none;
+      }
+    .cards-div {
+    width: 122%;
+    height: 100%;
+    margin-top: -59px;
+    position: relative;
+    left: 0px;
+    color: white;
+    }
+
+  .card {
+    width: 23%;
+    height: 100%;
     }
 
   .middle-cards {
         margin-right: 0px;
   }
   .recent-works {
-      width: 125%;
+      width: 118%;
       height: 40px;
       background-color: #f2f2f2;
       margin-top: 17px;
   }
   .exampleWork {
-      width: 130%;
+      width: 118%;
       margin-top: 0px;
   }
   .recentWork {
-      width: 160px;
+      width: 40%;
   }
   .recentWork-left-margin {
       margin-left: 0px;
       }
-      .big-nav {
-        margin-top: 52px;
-        margin-left: 6px;
-    }
+  .big-nav {
+    /* margin-top: 52px; */
+    margin-left: 6px;
+  }
+  #description{
+    display: none;
+  }
 
   }
   @media screen and (min-width: 411px){
       .card {
-          width: 89px;
+        width: 23%;
+        height: 100%;
+      }
+      .card img{
+        height: 70%;
       }
       .recentWork{
             width: 176px;
@@ -414,7 +438,7 @@ color: #77787B;
     .main-content {
         height: 100%;
         width: 80%;
-        margin: 50px 2px;
+        /* margin: 50px -7px; */
     }
 
     /* .nav li a {
@@ -422,7 +446,7 @@ color: #77787B;
         color: white;
       } */
       .nav {
-        width: 105%;
+        width: 100%;
         text-align: center;
         margin: 0 auto;
         height: 30px;
@@ -435,6 +459,7 @@ color: #77787B;
         border-right: 1px solid #eeb311;
         position: relative;
         left: 109px;
+        width: 21%;
       }
       .top-links {
         color: red;
@@ -461,7 +486,7 @@ color: #77787B;
             margin: auto;
             position: relative;
             bottom: 85px;
-            width: 127%;
+            width: 118%;
             height: 250px;
             border-radius: 5px solid #f7cf70;
         }
@@ -469,37 +494,42 @@ color: #77787B;
           display: none;
           }
         .hi-two {
-            display:  none;
-            }
+          display:  none;
+          }
         .cards-div {
-        margin-top: -59px;
-        position: relative;
-        left: 72px;
-        color: white;
-      }
+          width: 122%;
+          height: 100%;
+          margin-top: -59px;
+          position: relative;
+          left: 0px;
+          color: white;
+        }
 
       .card {
         display: inline-block;
-        background-color: #f1c038;
+        /* background-color: #f1c038; */
         word-wrap: break-word;
-        width: 86px;
-        height: 79px;
-        padding: 3px;
-        margin-right: -8px;
+        width: 23%;
+        height: 100%;
+        padding: 0px;
+        margin-right: 1px;
         border-radius: 5px;
+    }
+    .card img{
+      height: 70%;
     }
 
   .middle-cards {
         margin-right: 0px;
   }
   .recent-works {
-      width: 124%;
+      width: 118%;
       height: 40px;
       background-color: #f2f2f2;
       margin-top: 17px;
   }
   .exampleWork {
-      width: 130%;
+      width: 118%;
       margin-top: 0px;
   }
   .recentWork {
@@ -507,7 +537,7 @@ color: #77787B;
       display: inline-block;
       height: 130px;
       padding: 10px;
-      width: 165px;
+      width: 40%;
       border: 1px solid wheat;
       background-color: gray;
       margin-top: 18px;
@@ -517,13 +547,18 @@ color: #77787B;
   .recentWork-left-margin {
       margin-left: 0px;
       }
+      .big-nav {
+      /* margin-top: 0px; */
+      margin-top: 112px;
+      margin-left: 6px;
+    }
 
   }
   @media screen and (min-width: 475px){
     .main-content {
         height: 100%;
-        width: 80%;
-        margin: 50px 6px;
+        width: 78%;
+        /* margin: 50px -16px; */
         /* background-color: #f2f2f2; */
     }
 
@@ -532,7 +567,7 @@ color: #77787B;
         color: white;
       } */
       .nav {
-        width: 105%;
+        width: 100%;
         text-align: center;
         margin: 0 auto;
         height: 30px;
@@ -545,6 +580,7 @@ color: #77787B;
         border-right: 1px solid #eeb311;
         position: relative;
         left: 109px;
+        width: 21%;
       }
       .top-links {
         color: red;
@@ -552,51 +588,55 @@ color: #77787B;
         left: -106px;
         top: 4px;
         }
+        .card img{
+          height: 70%;
+        }
         .main-name {
-          margin-left: 8px;
+          margin-left: 51px;
           position: relative;
-          bottom: 35px;
+          bottom: 41px;
           text-align: center;
         }
         .main-nav-links{
           display: none;
         }
         .big-nav {
-            margin-top: 112px;
-            margin-left: 25px;
-            /* position: relative; */
+          margin-top: 112px;
+          margin-left: 25px;
+          /* position: relative; */
         }
         #center-pic {
-            display: block;
-            margin: auto;
-            position: relative;
-            border-radius: 9px;
-            bottom: 85px;
-            width: 125%;
-            height: 250px;
-            border-radius: 5px solid #f7cf70;
+          display: block;
+          margin: auto;
+          position: relative;
+          bottom: 85px;
+          width: 118%;
+          height: 250px;
+          border-radius: 5px solid #f7cf70;
         }
       .hi {
-          display: none;
-          }
+        display: none;
+        }
         .hi-two {
-            display:  none;
-            }
+          display:  none;
+          }
         .cards-div {
-        margin-top: -59px;
-        position: relative;
-        left: 72px;
-        color: white;
+          width: 122%;
+          height: 100%;
+          margin-top: -59px;
+          position: relative;
+          left: 0px;
+          color: white;
       }
 
       .card {
         display: inline-block;
-        background-color: #f1c038;
+        /* background-color: #f1c038; */
         word-wrap: break-word;
-        width: 74px;
-        height: 85px;
-        padding: 3px;
-        margin-right: -8px;
+        width: 23%;
+        height: 100%;
+        padding: 0px;
+        margin-right: 1px;
         border-radius: 5px;
     }
     /* .first-card {
@@ -606,26 +646,26 @@ color: #77787B;
         margin-right: 0px;
   }
   .recent-works {
-      width: 123%;
+      width: 118%;
       height: 40px;
       background-color: #f2f2f2;
       margin-top: 17px;
   }
   .exampleWork {
-      width: 130%;
+      width: 118%;
       margin-top: 0px;
   }
   .recentWork {
-      clear: both;
-      display: inline-block;
-      height: 130px;
-      padding: 10px;
-      width: 146px;
-      border: 1px solid wheat;
-      background-color: gray;
-      margin-top: 18px;
-      margin-right: 4px;
-      border-radius: 5px;
+    clear: both;
+    display: inline-block;
+    height: 130px;
+    padding: 10px 8px;
+    width: 42%;
+    border: 1px solid wheat;
+    background-color: gray;
+    margin-top: 18px;
+    margin-right: 4px;
+    border-radius: 5px;
   }
   .recentWork-left-margin {
       margin-left: 0px;
@@ -634,94 +674,259 @@ color: #77787B;
   }
 
   @media screen and (min-width: 768px){
-    .nav {
-      height: 40px;
+    .main-content {
+        height: 100%;
+        width: 80%;
+        margin: 12% 1%;
+        /* background-color: #f2f2f2; */
+    }
+
+    /* .nav li a {
+        text-decoration: none;
+        color: white;
+      } */
+      .nav {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        height: 30px;
+        background-color: #f1c038;
+        }
+      .nav li {
+        box-shadow: box-shadow: 10px 5px 5px red;
+        list-style-type: none;
+        display: inline-block;
+        border-right: 1px solid #eeb311;
+        position: relative;
+        left: 12%;
+        width: 21%;
+      }
+      .nav li a {
+      /* width: 21%; */
+    }
+      .top-links {
+        color: red;
+        position: relative;
+        left: -106px;
+        top: 4px;
+        }
+        .card img{
+          height: 70%;
+        }
+        .main-name {
+          margin-left: 51px;
+          position: relative;
+          bottom: 41px;
+          text-align: center;
+        }
+        .main-nav-links{
+          display: none;
+        }
+        .big-nav {
+          margin-top: 112px;
+          margin-left: 25px;
+          /* position: relative; */
+        }
+        #center-pic {
+          display: block;
+          margin: auto;
+          position: relative;
+          bottom: 85px;
+          width: 118%;
+          height: 250px;
+          border-radius: 5px solid #f7cf70;
+        }
+      .hi {
+        display: none;
+        }
+        .hi-two {
+          display:  none;
+          }
+        .cards-div {
+          width: 122%;
+          height: 100%;
+          margin-top: -59px;
+          position: relative;
+          left: 0px;
+          color: white;
       }
 
-    .nav li {
-      left: 107px;
+      .card {
+        display: inline-block;
+        /* background-color: #f1c038; */
+        word-wrap: break-word;
+        width: 23%;
+        height: 100%;
+        padding: 0px;
+        margin-right: 1%;
+        border-radius: 5px;
+    }
+    /* .first-card {
+          margin-left: 0px;
+      } */
+  .middle-cards {
+        margin-right: 0px;
   }
-  .nav li a {
-      font-size: 20px;
-      padding: 0 23px;
-      letter-spacing: 1px;
-  }
-  .card {
-      width: 683px;
-      padding: 27px;
-      margin-top: 12px;
-  }
-  .first-card {
-      margin-left: 12px;
-  }
-  .cards-div {
-      width: 125%;
-      margin-top: -50px;
-      position: relative;
-      left: -11px;
-      color: white;
-  }
-  .last-card{
-    display: none;
+  .recent-works {
+      width: 118%;
+      height: 40px;
+      background-color: #f2f2f2;
+      margin-top: 17px;
   }
   .exampleWork {
-      width: 125%;
-      margin-top: -11px;
-    }
-  .recent-works {
-        width: 125%;
-        height: 40px;
-        background-color: #f2f2f2;
-        margin: 42px 0;
-    }
-  .recentWork {
-      height: 180px;
-      padding: 18px;
-      width: 322px;
-      border: 2px solid wheat;
+      width: 118%;
       margin-top: 0px;
   }
+  .recentWork {
+    clear: both;
+    display: inline-block;
+    height: 130px;
+    padding: 10px 8px;
+    width: 42%;
+    border: 1px solid wheat;
+    background-color: gray;
+    margin-top: 18px;
+    margin-right: 2%;
+    border-radius: 5px;
+  }
   .recentWork-left-margin {
-        margin-left: 0px;
-    }
-    #center-pic {
-        height: 435px;
+      margin-left: 0px;
+      }
 
-    }
-    .main-name #description {
-
-        letter-spacing: 4.5px;
-    }
-    .main-name{
-      margin-left: -20px;
-    }
-      .main-name #akouvi {
-        font-size: 56px;
-    }
-    .cards-div h4{
-      font-size: 40px;
-    }
   }
   @media screen and (min-width: 1024px){
-  .card {
-    width: 939px;
+    .main-content {
+        height: 100%;
+        width: 80%;
+        margin: 6% 2%;
+        /* background-color: #f2f2f2; */
+    }
+
+    /* .nav li a {
+        text-decoration: none;
+        color: white;
+      } */
+      .nav {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        /* height: 30px; */
+        background-color: #f1c038;
+        }
+      .nav li {
+        box-shadow: box-shadow: 10px 5px 5px red;
+        list-style-type: none;
+        display: inline-block;
+        border-right: 1px solid #eeb311;
+        position: relative;
+        left: 12%;
+        width: 21%;
+        bottom: 4px;
+        height: 18px;
+        /* width: 21%; */
+      }
+      .nav li a {
+        position: relative;
+        bottom: -2px;
+        font-size: 15px;
+    }
+    .nav li:hover{
+      border-left: 5px solid #f66;
+      /* border-right: 0px solid; */
+      background-color: #D8E4E6;
+    }
+      .top-links {
+        color: red;
+        position: relative;
+        left: -106px;
+        top: 4px;
+        }
+        .card img{
+          height: 70%;
+        }
+        .main-name {
+          margin-left: 51px;
+          position: relative;
+          bottom: 41px;
+          text-align: center;
+        }
+        .main-nav-links{
+          display: none;
+        }
+        .big-nav {
+          margin-top: 112px;
+          margin-left: 25px;
+          /* position: relative; */
+        }
+        #center-pic {
+          display: block;
+          margin: auto;
+          position: relative;
+          bottom: 85px;
+          width: 118%;
+          height: 255%;
+          border-radius: 5px solid #f7cf70;
+        }
+      .hi {
+        display: none;
+        }
+        .hi-two {
+          display:  none;
+          }
+        .cards-div {
+          width: 122%;
+          height: 275px;
+          margin-top: -59px;
+          position: relative;
+          left: 0px;
+          color: white;
+      }
+
+      .card {
+        display: inline-block;
+        /* background-color: #f1c038; */
+        word-wrap: break-word;
+        width: 23%;
+        height: 100%;
+        padding: 0px;
+        margin-right: 1%;
+        border-radius: 5px;
+    }
+    /* .first-card {
+          margin-left: 0px;
+      } */
+  .middle-cards {
+        margin-right: 0px;
   }
-  .cards-div h4{
-    font-size: 40px;
+  .recent-works {
+      width: 118%;
+      height: 40px;
+      background-color: #f2f2f2;
+      margin-top: 17px;
   }
-  #center-pic {
-      height: 500px;
+  .exampleWork {
+      width: 118%;
+      margin-top: 0px;
   }
   .recentWork {
-      width: 450px;
+    clear: both;
+    display: inline-block;
+    height: 170px;
+    padding: 10px 3px;
+    width: 48%;
+    border: 1px solid wheat;
+    background-color: gray;
+    margin-top: 18px;
+    margin-right: 1%;
+    border-radius: 5px;
   }
-  .nav{
-    height: 40px;
-  }
-  .nav li a{
-    font-size: 20px;
-  }
-  .main-name #akouvi {
-    font-size: 71px;
-  }
+  .recentWork-left-margin {
+      margin-left: 0px;
+      }
+      .fullPage{
+        /* width: 91%; */
+    /* margin: 0 auto; */
+    margin: 1%;
+
+      }
 }
