@@ -10,8 +10,9 @@
     *{
       margin: 0;
       /* font-family: sans-serif; */
-      /* font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif; */
-      font-family: 'Nanum Myeongjo', serif;
+      font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+      /* font: 11px Helvetica, Arial, Geneva, sans-serif; */
+      /* font-family: 'Nanum Myeongjo', serif; */
       /* background: #f2f2f2; */
 
     }
@@ -32,7 +33,7 @@
 
       }
       img{
-        float: right;
+        float: left;
         border-radius: 20px;
 /*        box-shadow: 0 0px 100px rgba(0, 9, 0, .8);*/
 
@@ -57,12 +58,14 @@
       }
       .contactMe ul{
         list-style: none;
-        padding-left: 0
+        padding-left: 0;
+        margin-top: 63px;
       }
       i{
         font-size: 50px;
-        padding: 15px 20px;
+        padding: 0px 20px;
         border-radius: 50%;
+        margin-top: 0px;
         /* font-weight: lighter; */
       }
       i:hover{
@@ -90,7 +93,7 @@
         /* color: #3b5b98; */
       }
       .contactMe{
-        float: left;
+        float: right;
       }
       h1{
         color: #f2f2f2;
@@ -101,41 +104,55 @@
       a span{
         font-size: 18px;
         position: relative;
-        top: -9px;
+        top: -12px;
+        letter-spacing: 2px;
+        padding: 5px 12px;
+        /* font-weight: lighter; */
+        background: #f1c038;
+        font-weight: 300;
+        color: #77787B;
       }
       .mainNav{
         text-align: center;
         width: 100%;
-        height: 40px;
+        height: 30px;
         /* background: linear-gradient(skyblue, #f2f2f2); */
         background: #f1c038;
       }
       #nav ul li{
         display: inline-block;
-        font-size: 20px;
+        font-size: 16px;
         list-style-type: none;
         margin-top: auto;
         padding: 5px 36px;
-        /* border-right: 1px solid gray; */
-        /* margin: 0 auto; */
+        list-style-type: none;
+        position: relative;
+        width: 21%;
+        border-left: 1px solid #f66;
       }
 
       .mainNav a{
         display: block;
         text-align: center;
-        border-left: 1px solid #f66;
-        color: #f2f2f2;
+        color: #77787B;
         text-decoration: none;
-        padding: 0 15px;
+        text-transform: uppercase;
+        padding: 1px 15px;
         font-weight: lighter;
         letter-spacing: 1px;
       }
 
-      .mainNav a:hover{
+      #nav ul li:hover{
+        background-color: #D8E4E6;
         font-weight: normal;
         border-left: 5px solid #f66;
-        /* color: #a2a9ad */
-        /* border-right: 2px solid #f66 */
+      }
+      i.fas{
+        font-size: 190px;
+        color: #f1c038;
+        margin-top: -25px;
+        position: relative;
+        left: 43px;
       }
 
       footer{
@@ -155,7 +172,8 @@
           transform: perspective(1px) translateY(12%);
           text-align: center;
           /* color: white; */
-          font-weight: 800;
+          font-weight: lighter;
+          letter-spacing: 2px;
       }
     </style>
 
@@ -175,9 +193,10 @@
           </div>
           <div class="">
             <div class="contactMe">
-              <h1>Contact Me</h1>
+              <!-- <h1>Contact Me</h1> -->
+              <i class="fas fa-arrow-circle-down"></i>
                 <ul>
-                  <li><a href="https://www.facebook.com/linder.kouedjin.7" target="_blank" id="fb"> <i class="fab fa-facebook-square facebook"> <span>Like me on Facebook</span></i></a></li>
+                  <li><a href="https://www.facebook.com/linder.kouedjin.7" target="_blank" id="fb"> <i class="fab fa-facebook-square facebook"> <span>Like me on Fb</span></i></a></li>
                   <li><a href="mailto:kouedjinl@gmail.com" id="email"> <i class="far fa-envelope email"> <span>Send me an email</span></i></a></li>
                   <li><a href="https://www.linkedin.com/notifications/"  target="_blank" id="linkedin"> <i class="fab fa-linkedin linkedIn"> <span>Connect on LinkedIn</span></i></a></li>
                   <li><a href="https://github.com/Akouvik" target="_blank" id="github"> <i class="fab fa-github-square gitHub"> <span>check me out on GitHub</span></i></a></li>
