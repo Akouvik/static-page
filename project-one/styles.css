@@ -8,69 +8,65 @@ body{
 
 }
 
-.nav{
+/* .nav{
   width: 100%;
   height: 30px;
   background-color: #f1c038;
-}
-.nav li{
-  padding: 4px 21px;
-  box-shadow: box-shadow: 10px 5px 5px red;
-  background-color: #f1c038;
-  list-style-type: none;
-  display: inline-block;
-  border-right: 1px solid #eeb311;
-  position: relative;
-  left: 150px;
-  width: 21%;
+} */
+    .nav li {
+    box-shadow: box-shadow: 10px 5px 5px red;
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid #eeb311;
+    position: relative;
+    left: 12%;
+    width: 21em;
+    bottom: 5px;
+    height:2em;
+    }
+    .nav li:hover{
+      border-left: 5px solid #f66;
+      background-color: #D8E4E6;
+    }
+    .nav li a{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 100;
+    display: block;
+    text-decoration: none;
+    color: #77787B;
+    position: relative;
+    bottom: -6px;
+    font-size: 15px;
 
-}
-.nav li a{
-  /* text-decoration: none;
-  color: white */
-  /* text-decoration: none; */
-  /* color: white */
-  /* font-size: 16px; */
-/* padding: 0 23px; */
-letter-spacing: 3px;
-text-transform: uppercase;
-font-weight: 100;
-/* width: 156px; */
-display: block;
-/* margin-bottom: 30px; */
-/* padding: 8px; */
-text-decoration: none;
-color: #77787B;
-/* background-color: #f1c038; */
-/* text-align: center; */
-}
+    }
 .main-content{
-  height: 100%;
-  width: 80%;
+  height: 119em;
+  width: 81em;
+  margin: 5em 4em;
   /* margin: 50px auto 145px auto; */
   /* background-color: #f2f2f2; */
 }
 
-.big-nav{
+/* .big-nav{
   width: 99%;
   height: 200px;
-  /* background-color: #f66; */
+  background-color: #f66;
   margin: -51px auto 145px auto;
   position: relative;
   bottom: 68px;
-}
+} */
 #center-pic{
   display: block;
   margin: auto;
   position: relative;
-  /* max-height: 100%; */
-  bottom: 66px;
-  width: 100%;
-  height: 465px;
+  bottom: 85px;
+  width: 79em;
+  height: 35em;
 }
-.big-nav {
+/* .big-nav {
   margin-top: 112px;
-}
+} */
 
 .main-name{
       margin-left: 8px;
@@ -81,11 +77,11 @@ color: #77787B;
   /* border-left:  1px solid #eeb311; */
 }
 
-.main-name #akouvi{
-  font-size: 40px;
-  font-weight: lighter;
-  margin-top: 6px;
-  letter-spacing: 2px;
+.main-name #akouvi {
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 1em 2em;
+    letter-spacing: 2px;
 }
 .main-name #description{
   position: relative;
@@ -160,20 +156,28 @@ color: #77787B;
     left: 37px;
     transform: rotate(140deg);
   }
-  .cards-div{
+  /* .cards-div{
     margin-top: -45px;
     position: relative;
     left: 50px;
+  } */
+  .cards-div {
+    width: 80em;
+    height: 25em;
+    /* margin-top: -59px; */
+    position: relative;
+    left: 0px;
+    /* color: white; */
   }
-  .card{
-    display: inline-block;
-    background-color: #f1c038;
-    word-wrap: break-word;
-    width: 23%;
-    height: 100%;;
-    padding: 9px;
-    margin-left: 12px;
-    border-radius: 5px
+  .card {
+      display: inline-block;
+      background-color: #f1c038;
+      word-wrap: break-word;
+      width: 19em;
+      height: 100%;
+      /* padding: 0px; */
+      margin-left: 9px;
+      border-radius: 5px;
   }
   .card h4{
     text-align: center;
@@ -187,43 +191,48 @@ color: #77787B;
     font-weight: lighter;
     text-align: center;
   }
-  .recent-works{
-    width: 100%;
-    height: 40px;
+  .recent-works {
+    width: 78em;
+    height: 3em;
     background-color: #f2f2f2;
-    margin-top: 17px;
-  }
-  .exampleWork{
-    width: 100%;
-     margin-top: -49px;
-  }
-  .recentWork{
-    display: inline-block;
-    height: 180px;
-    padding: 15px;
-    width: 40%;
-    border: 2px solid wheat;
-    background-color: gray;
-    margin-top: 60px;
-    border-radius: 5px;
-  }
-  .recentWork-left-margin{
-    margin-left: 15px
-  }
+    margin-top: 11em;
+    position: relative;
+    left: 12px;
+}
+.exampleWork {
+    width: 78em;
+    height: 38em;
+    margin-top: 1em;
+    /* margin-top: 0px; */
+    position: relative;
+    left: 12px;
+}
+    .recentWork {
+      clear: both;
+      display: inline-block;
+      height: 15em;
+      width: 38em;
+      padding: 0px 3px;
+      border: 1px solid wheat;
+      background-color: gray;
+      margin-top: 18px;
+      /* margin-right: 1%; */
+    }
+.recentWork-right-margin{
+  margin-right: .8%;
+}
+
   .middle-cards{
     margin-right: 12px
   }
-
   footer{
-    /* clear: both; */
-    position: relative;
-    top: 55em;
+    width: 77em;
     text-align: center;
-    border-top: 1px solid #D8E4E6;
-    /* margin-top: 30px; */
+    margin: 4em auto 0 2em;
+    height: 2em;
     background-color: #f1c038;
-    height: 30px;
   }
+
   footer p{
     color: gray;
     font-size: 16px;
@@ -242,32 +251,24 @@ color: #77787B;
 
   /*if the device size is this size or smaller make these changes  */
   @media only screen and (min-width: 320px){
-    .main-content {
+    /* .main-content {
           height: 100%;
           width: 80%;
-          /* margin: 50px 33px; */
-          /* background-color: #f2f2f2; */
-        }
+          margin: 50px 33px;
+          background-color: #f2f2f2;
+        } */
     /* .nav li a {
         text-decoration: none;
         color: white;
       } */
       .nav {
-        width: 121%;
-        text-align: center;
-        margin: 0 auto;
-        height: 30px;
-        background-color: #f1c038;
-        }
-      .nav li {
-        box-shadow: box-shadow: 10px 5px 5px red;
-        list-style-type: none;
-        display: inline-block;
-        border-right: 1px solid #eeb311;
-        position: relative;
-        left: 109px;
-        width: 21%;
+          width: 85em;
+          text-align: center;
+          margin: 0 auto;
+          height: 2em;
+          background-color: #f1c038;
       }
+
       .top-links {
         color: red;
         position: relative;
@@ -283,7 +284,7 @@ color: #77787B;
         .main-nav-links{
           display: none;
         }
-        #center-pic {
+        /* #center-pic {
             display: block;
             margin: auto;
             position: relative;
@@ -291,26 +292,29 @@ color: #77787B;
             width: 118%;
             height: 250px;
             border-radius: 5px solid #f7cf70;
-        }
+        } */
       .hi {
           display: none;
           }
         .hi-two {
             display:  none;
             }
-        .cards-div {
-        margin-top: -59px;
-        position: relative;
-        /* left: 72px; */
-        color: white;
-      }
+            /* .cards-div {
+              width: 122%;
+              height: 25em;
+              margin-top: -59px;
+              position: relative;
+              left: 0px;
+              color: white;
+            } */
 
-      .card {
+
+      /* .card {
         width: 23%;
         height: 100%;
         padding: 3px;
         margin-right: 0px;
-    }
+    } */
     .card img{
       height: 13em;
     }
@@ -318,65 +322,65 @@ color: #77787B;
     .middle-cards {
       margin-right: 0px;
     }
-  .recent-works {
+  /* .recent-works {
       width: 125%;
-  }
-  .exampleWork {
+  } */
+  /* .exampleWork {
       width: 118%;
       margin-top: 0px;
-  }
-  .recentWork {
+  } */
+  /* .recentWork {
       height: 130px;
       padding: 10px;
       width: 40%;
       border: 1px solid wheat;
       margin-top: 18px;
       margin-right: 4px;
-  }
-  .recentWork-left-margin {
+  } */
+  /* .recentWork-left-margin {
       margin-left: 0px;
-      }
+      } */
 
   }
   @media only screen and (min-width: 360px){
-    .card {
+    /* .card {
         display: inline-block;
-        /* background-color: #f1c038; */
+        background-color: #f1c038;
         word-wrap: break-word;
         width: 23%;
         height: 100%;
         padding: 0px;
         margin-left: 1px;
         border-radius: 5px;
-    }
+    } */
     .card img{
       height: 13em;
     }
-    .recentWork{
+    /* .recentWork{
       width: 40%;
-    }
+    } */
 }
 
   @media screen and (min-width: 375px){
-    .main-content {
+    /* .main-content {
         height: 100%;
         width: 80%;
         margin: 50px 0px;
-        /* background-color: #f2f2f2; */
-    }
+        background-color: #f2f2f2;
+    } */
 
     /* .nav li a {
         text-decoration: none;
         color: white;
       } */
-      .nav {
+      /* .nav {
         width: 100%;
         text-align: center;
         margin: 0 auto;
         height: 30px;
         background-color: #f1c038;
-        }
-      .nav li {
+        } */
+      /* .nav li {
         box-shadow: box-shadow: 10px 5px 5px red;
         list-style-type: none;
         display: inline-block;
@@ -384,7 +388,7 @@ color: #77787B;
         position: relative;
         left: 109px;
         width: 21%;
-      }
+      } */
     .top-links {
       color: red;
       position: relative;
@@ -409,79 +413,79 @@ color: #77787B;
   .hi-two {
       display:  none;
       }
-    .cards-div {
-    width: 122%;
-    height: 100%;
-    margin-top: -59px;
-    position: relative;
-    left: 0px;
-    color: white;
-    }
+    /* .cards-div {
+      width: 122%;
+      height: 25em;
+      margin-top: -59px;
+      position: relative;
+      left: 0px;
+      color: white;
+    } */
 
-  .card {
+  /* .card {
     width: 23%;
     height: 100%;
-    }
+    } */
 
   .middle-cards {
         margin-right: 0px;
   }
-  .recent-works {
+  /* .recent-works {
       width: 118%;
       height: 40px;
       background-color: #f2f2f2;
       margin-top: 17px;
-  }
-  .exampleWork {
+  } */
+  /* .exampleWork {
       width: 118%;
       margin-top: 0px;
-  }
-  .recentWork {
+  } */
+  /* .recentWork {
       width: 40%;
-  }
-  .recentWork-left-margin {
+  } */
+  /* .recentWork-left-margin {
       margin-left: 0px;
-      }
-  .big-nav {
-    /* margin-top: 52px; */
+      } */
+  /* .big-nav {
+    margin-top: 52px;
     margin-left: 6px;
-  }
+  } */
   #description{
     display: none;
   }
 
   }
   @media screen and (min-width: 411px){
-      .card {
+      /* .card {
         width: 23%;
         height: 100%;
-      }
+      } */
       .card img{
         height: 13em;
       }
-      .recentWork{
+      /* .recentWork{
             width: 176px;
-      }
+      } */
 }
   @media screen and (min-width: 414px){
-    .main-content {
+    /* .main-content {
         height: 100%;
         width: 80%;
-        /* margin: 50px -7px; */
-    }
+        margin: 50px -7px;
+    } */
 
     /* .nav li a {
         text-decoration: none;
         color: white;
       } */
-      .nav {
+      /* .nav {
         width: 100%;
         text-align: center;
         margin: 0 auto;
         height: 30px;
         background-color: #f1c038;
-        }
-      .nav li {
+        } */
+      /* .nav li {
         box-shadow: box-shadow: 10px 5px 5px red;
         list-style-type: none;
         display: inline-block;
@@ -489,7 +493,7 @@ color: #77787B;
         position: relative;
         left: 109px;
         width: 21%;
-      }
+      } */
       .top-links {
         color: red;
         position: relative;
@@ -505,12 +509,12 @@ color: #77787B;
         .main-nav-links{
           display: none;
         }
-        .big-nav {
+        /* .big-nav {
             margin-top: 52px;
             margin-left: 20px;
-            /* position: relative; */
-        }
-        #center-pic {
+            position: relative;
+        } */
+        /* #center-pic {
             display: block;
             margin: auto;
             position: relative;
@@ -518,32 +522,32 @@ color: #77787B;
             width: 118%;
             height: 250px;
             border-radius: 5px solid #f7cf70;
-        }
+        } */
       .hi {
           display: none;
           }
         .hi-two {
           display:  none;
           }
-        .cards-div {
+        /* .cards-div {
           width: 122%;
-          height: 100%;
+          height: 25em;
           margin-top: -59px;
           position: relative;
           left: 0px;
           color: white;
-        }
+        } */
 
-      .card {
+      /* .card {
         display: inline-block;
-        /* background-color: #f1c038; */
+        background-color: #f1c038;
         word-wrap: break-word;
         width: 23%;
         height: 100%;
         padding: 0px;
         margin-right: 1px;
         border-radius: 5px;
-    }
+    } */
     .card img{
       height: 13em;
     }
@@ -551,17 +555,17 @@ color: #77787B;
   .middle-cards {
         margin-right: 0px;
   }
-  .recent-works {
+  /* .recent-works {
       width: 118%;
       height: 40px;
       background-color: #f2f2f2;
       margin-top: 17px;
-  }
-  .exampleWork {
+  } */
+  /* .exampleWork {
       width: 118%;
       margin-top: 0px;
-  }
-  .recentWork {
+  } */
+  /* .recentWork {
       clear: both;
       display: inline-block;
       height: 130px;
@@ -572,37 +576,37 @@ color: #77787B;
       margin-top: 18px;
       margin-right: 4px;
       border-radius: 5px;
-  }
-  .recentWork-left-margin {
+  } */
+  /* .recentWork-left-margin {
       margin-left: 0px;
-      }
-      .big-nav {
-      /* margin-top: 0px; */
+      } */
+      /* .big-nav {
+      margin-top: 0px;
       margin-top: 112px;
       margin-left: 6px;
-    }
+    } */
 
   }
   @media screen and (min-width: 475px){
-    .main-content {
+    /* .main-content {
         height: 100%;
         width: 78%;
-        /* margin: 50px -16px; */
-        /* background-color: #f2f2f2; */
-    }
+        margin: 50px -16px;
+        background-color: #f2f2f2;
+    } */
 
     /* .nav li a {
         text-decoration: none;
         color: white;
       } */
-      .nav {
+      /* .nav {
         width: 100%;
         text-align: center;
         margin: 0 auto;
         height: 30px;
         background-color: #f1c038;
-        }
-      .nav li {
+        } */
+      /* .nav li {
         box-shadow: box-shadow: 10px 5px 5px red;
         list-style-type: none;
         display: inline-block;
@@ -610,7 +614,7 @@ color: #77787B;
         position: relative;
         left: 109px;
         width: 21%;
-      }
+      } */
       .top-links {
         color: red;
         position: relative;
@@ -629,12 +633,12 @@ color: #77787B;
         .main-nav-links{
           display: none;
         }
-        .big-nav {
+        /* .big-nav {
           margin-top: 112px;
           margin-left: 25px;
-          /* position: relative; */
-        }
-        #center-pic {
+          position: relative;
+        } */
+        /* #center-pic {
           display: block;
           margin: auto;
           position: relative;
@@ -642,49 +646,49 @@ color: #77787B;
           width: 118%;
           height: 250px;
           border-radius: 5px solid #f7cf70;
-        }
+        } */
       .hi {
         display: none;
         }
         .hi-two {
           display:  none;
           }
-        .cards-div {
+        /* .cards-div {
           width: 122%;
-          height: 100%;
+          height: 25em;
           margin-top: -59px;
           position: relative;
           left: 0px;
           color: white;
-      }
+      } */
 
-      .card {
+      /* .card {
         display: inline-block;
-        /* background-color: #f1c038; */
+        background-color: #f1c038;
         word-wrap: break-word;
         width: 23%;
         height: 100%;
         padding: 0px;
         margin-right: 1px;
         border-radius: 5px;
-    }
+    } */
     /* .first-card {
           margin-left: 0px;
       } */
   .middle-cards {
         margin-right: 0px;
   }
-  .recent-works {
+  /* .recent-works {
       width: 118%;
       height: 40px;
       background-color: #f2f2f2;
       margin-top: 17px;
-  }
-  .exampleWork {
+  } */
+  /* .exampleWork {
       width: 118%;
       margin-top: 0px;
-  }
-  .recentWork {
+  } */
+  /* .recentWork {
     clear: both;
     display: inline-block;
     height: 130px;
@@ -695,33 +699,33 @@ color: #77787B;
     margin-top: 18px;
     margin-right: 4px;
     border-radius: 5px;
-  }
-  .recentWork-left-margin {
+  } */
+  /* .recentWork-left-margin {
       margin-left: 0px;
-      }
+      } */
 
   }
 
   @media screen and (min-width: 768px){
-    .main-content {
+    /* .main-content {
         height: 100%;
         width: 80%;
         margin: 12% 1%;
-        /* background-color: #f2f2f2; */
-    }
+        background-color: #f2f2f2;
+    } */
 
     /* .nav li a {
         text-decoration: none;
         color: white;
       } */
-      .nav {
+      /* .nav {
         width: 100%;
         text-align: center;
         margin: 0 auto;
         height: 30px;
         background-color: #f1c038;
-        }
-      .nav li {
+        } */
+      /* .nav li {
         box-shadow: box-shadow: 10px 5px 5px red;
         list-style-type: none;
         display: inline-block;
@@ -729,7 +733,7 @@ color: #77787B;
         position: relative;
         left: 12%;
         width: 21%;
-      }
+      } */
       .nav li a {
       /* width: 21%; */
     }
@@ -751,12 +755,12 @@ color: #77787B;
         .main-nav-links{
           display: none;
         }
-        .big-nav {
+        /* .big-nav {
           margin-top: 112px;
           margin-left: 25px;
-          /* position: relative; */
-        }
-        #center-pic {
+          position: relative;
+        } */
+        /* #center-pic {
           display: block;
           margin: auto;
           position: relative;
@@ -764,49 +768,49 @@ color: #77787B;
           width: 118%;
           height: 250px;
           border-radius: 5px solid #f7cf70;
-        }
+        } */
       .hi {
         display: none;
         }
         .hi-two {
           display:  none;
           }
-        .cards-div {
+        /* .cards-div {
           width: 122%;
-          height: 100%;
+          height: 25em;
           margin-top: -59px;
           position: relative;
           left: 0px;
           color: white;
-      }
+      } */
 
-      .card {
+      /* .card {
         display: inline-block;
-        /* background-color: #f1c038; */
+        background-color: #f1c038;
         word-wrap: break-word;
         width: 23%;
         height: 100%;
         padding: 0px;
         margin-right: 1%;
         border-radius: 5px;
-    }
+    } */
     /* .first-card {
           margin-left: 0px;
       } */
   .middle-cards {
         margin-right: 0px;
   }
-  .recent-works {
+  /* .recent-works {
       width: 118%;
       height: 40px;
       background-color: #f2f2f2;
       margin-top: 17px;
-  }
-  .exampleWork {
+  } */
+  /* .exampleWork {
       width: 118%;
       margin-top: 0px;
-  }
-  .recentWork {
+  } */
+  /* .recentWork {
     clear: both;
     display: inline-block;
     height: 130px;
@@ -817,32 +821,32 @@ color: #77787B;
     margin-top: 18px;
     margin-right: 2%;
     border-radius: 5px;
-  }
-  .recentWork-left-margin {
+  } */
+  /* .recentWork-left-margin {
       margin-left: 0px;
-      }
+      } */
 
   }
   @media screen and (min-width: 1024px){
-    .main-content {
+    /* .main-content {
         height: 100%;
         width: 80%;
         margin: 6% 2%;
-        /* background-color: #f2f2f2; */
-    }
+        background-color: #f2f2f2;
+    } */
 
     /* .nav li a {
         text-decoration: none;
         color: white;
       } */
-      .nav {
+      /* .nav {
         width: 100%;
         text-align: center;
         margin: 0 auto;
-        /* height: 30px; */
+        height: 30px;
         background-color: #f1c038;
-        }
-      .nav li {
+        } */
+      /* .nav li {
         box-shadow: box-shadow: 10px 5px 5px red;
         list-style-type: none;
         display: inline-block;
@@ -852,18 +856,14 @@ color: #77787B;
         width: 21%;
         bottom: 4px;
         height: 18px;
-        /* width: 21%; */
-      }
-      .nav li a {
+        width: 21%;
+      } */
+      /* .nav li a {
         position: relative;
         bottom: -2px;
         font-size: 15px;
-    }
-    .nav li:hover{
-      border-left: 5px solid #f66;
-      /* border-right: 0px solid; */
-      background-color: #D8E4E6;
-    }
+    } */
+
       .top-links {
         color: red;
         position: relative;
@@ -882,12 +882,12 @@ color: #77787B;
         .main-nav-links{
           display: none;
         }
-        .big-nav {
+        /* .big-nav {
           margin-top: 112px;
           margin-left: 25px;
-          /* position: relative; */
-        }
-        #center-pic {
+          position: relative;
+        } */
+        /* #center-pic {
           display: block;
           margin: auto;
           position: relative;
@@ -895,49 +895,49 @@ color: #77787B;
           width: 118%;
           height: 255%;
           border-radius: 5px solid #f7cf70;
-        }
+        } */
       .hi {
         display: none;
         }
         .hi-two {
           display:  none;
           }
-        .cards-div {
+        /* .cards-div {
           width: 122%;
           height: 25em;
           margin-top: -59px;
           position: relative;
           left: 0px;
           color: white;
-      }
+      } */
 
-      .card {
+      /* .card {
         display: inline-block;
-        /* background-color: #f1c038; */
+        background-color: #f1c038;
         word-wrap: break-word;
         width: 23%;
         height: 100%;
         padding: 0px;
         margin-right: 1%;
         border-radius: 5px;
-    }
+    } */
     /* .first-card {
           margin-left: 0px;
       } */
   .middle-cards {
         margin-right: 0px;
   }
-  .recent-works {
+  /* .recent-works {
       width: 118%;
       height: 40px;
       background-color: #f2f2f2;
       margin-top: 17px;
-  }
-  .exampleWork {
+  } */
+  /* .exampleWork {
       width: 118%;
       margin-top: 0px;
-  }
-  .recentWork {
+  } */
+  /* .recentWork {
     clear: both;
     display: inline-block;
     height: 170px;
@@ -948,10 +948,10 @@ color: #77787B;
     margin-top: 18px;
     margin-right: 1%;
     border-radius: 5px;
-  }
-  .recentWork-left-margin {
+  } */
+  /* .recentWork-left-margin {
       margin-left: 0px;
-      }
+      } */
       .fullPage{
         /* width: 91%; */
     /* margin: 0 auto; */
